@@ -42,16 +42,16 @@ public class AnagramSolver {
         return sorted;
     }
 
-    public static void main(String[] args) throws FileNotFoundException {
-        HashMap<String,ArrayList<String>> anagramHash;
-        anagramHash = anagrams("src/main/resources/simpler.txt");
-        System.out.println(anagramHash);
-
-        ArrayList<String> mostFreq = new ArrayList<>();
-        mostFreq = mostFrequentAnagram(anagramHash);
-        System.out.println(mostFreq);
-        printKeyValuePairs(anagramHash);
-    }
+//    public static void main(String[] args) throws FileNotFoundException {
+//        HashMap<String,ArrayList<String>> anagramHash;
+//        anagramHash = anagrams("src/main/resources/simpler.txt");
+//        System.out.println(anagramHash);
+//
+//        ArrayList<String> mostFreq = new ArrayList<>();
+//        mostFreq = mostFrequentAnagram(anagramHash);
+//        System.out.println(mostFreq);
+//        printKeyValuePairs(anagramHash);
+//    }
 
     /**
      * Input: hashmap of lists of words that are anagrams.
